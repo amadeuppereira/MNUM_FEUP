@@ -23,7 +23,7 @@ int main() {
 		xn = x - h*fdx(x, y);
 		yn = y - h*fdy(x, y);
 
-		if (f(x, y) < f(xn, yn)) {
+		if (f(xn, yn) < f(x, y)) {
 			x = xn;
 			y = yn;
 			h *= 2;
