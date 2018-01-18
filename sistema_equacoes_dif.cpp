@@ -1,10 +1,8 @@
 #include <iostream>
 #include <math.h>
 using namespace std;
-/*
-     AINDA POR TESTAR
-	------------------
-*/
+
+
 
 //sistema de equacoes
 float f(float x, float y, float z) {
