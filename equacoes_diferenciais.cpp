@@ -92,8 +92,6 @@ void rk2() {
 }
 
 
-// NAO DÁ CERTO
-
 void rk4() {
 	//intervalo de integracao
 	float a = 0, b = 1.3999;
